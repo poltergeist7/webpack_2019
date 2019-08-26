@@ -1,2 +1,0 @@
-#WEBPACK
-2019년 8월 26일 WEBPACK 연습입니다.
