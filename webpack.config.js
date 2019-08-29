@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CleanWebpackPlugin = require("clean-webpack-plugin");
 
 module.exports = {
     entry: './src/index.js',
@@ -46,7 +47,7 @@ module.exports = {
             filename: 'index.html' // output으로 출력할 파일은 index.html 이다.
         }),
         new MiniCssExtractPlugin({
-            filename: 'style.css'
-        })
-    ]
+            filename: 'style-test.css'
+        }),
+ㅌ    ]
 };
